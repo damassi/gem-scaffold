@@ -1,4 +1,4 @@
-module TinySMS
+module Todo
   autoload :Base, 'todo/base'
   autoload :Version, 'todo/version'
 end
