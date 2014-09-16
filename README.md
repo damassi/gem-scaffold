@@ -1,5 +1,5 @@
-Gem Scaffold for building RubyGems
-==================================
+Base Gem scaffold
+=================
 
 Includes
 
