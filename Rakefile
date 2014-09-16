@@ -19,14 +19,6 @@ end
 
 # Various tasks
 
-namespace :util do
-  desc 'Replaces all occurances of Todo and todo with the new Gem name'
-  task :rename do
-    sh "grep -rl 'Todo' ./ | xargs sed -i 's/Todo/NEW_KLASS_NAME'"
-    sh "grep -rl 'todo' ./ | xargs sed -i 's/todo/NEW_NAME'"
-  end
-end
-
 namespace :deploy do
   desc 'Merge back into master, bump version and push'
   task :gh do
